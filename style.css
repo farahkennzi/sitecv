@@ -1,0 +1,64 @@
+h1, h2, h3, h4 {
+    color: black;
+    font-size:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+header {
+    font-family:arial;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main {
+    background-color: white;
+    color:black;
+    padding:100px;
+    max-width: 800px;
+    text-align: center;
+    
+    font-size: 20px;
+    margin:auto;
+    border-radius:20px; /* bords arrondis */
+    box-shadow: 0 0 30px 30px rgba(0,0,0,0.3); /* Ombre portée : Vertical Horizontal Flou Taille Couleur */
+}
+
+p {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+} 
+
+a { 
+    color: black;
+    text-decoration: none; 
+    
+} 
+nav a {
+    color:black;
+}
+
+body{
+    background-image: url("http://cvincent61.free.fr/fond/fond-site.jpg");
+    background-size: auto;
+} 
+
+strong { 
+    font-size: 50px;
+    
+}
+#col {
+    display: inline-block;
+    text-align: center;    
+}
+img { 
+    
+}
+
+header li { 
+    display: inline-block;
+    width:32%;
+}
